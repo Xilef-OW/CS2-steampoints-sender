@@ -1,0 +1,6 @@
+{
+  "username": "your_steam_username",
+  "password": "your_steam_password",
+  "maFile": "/path/to/steam.mafile",
+  "target": "76561198000000000"
+}
