@@ -1,0 +1,28 @@
+{
+  "name": "cs2-steampoints-sender",
+  "version": "1.0.0",
+  "description": "Steam points gifting tool",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "steam-totp": "^2.1.1",
+    "steam-user": "^5.0.0",
+    "steamcommunity": "^3.45.7"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nock": "^13.3.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
